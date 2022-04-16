@@ -1,0 +1,24 @@
+{
+    "type": "mysql",
+    "host": "rds-test.cfb0ggdw2ctl.ap-northeast-3.rds.amazonaws.com",
+    "port": 3306,
+    "username": "root",
+    "password": "dudgh123",
+    "database": "rds_test",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "src/entity/**/*.ts"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "src/entity",
+       "migrationsDir": "src/migration",
+       "subscribersDir": "src/subscriber"
+    }
+ }
