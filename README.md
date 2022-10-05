@@ -1,5 +1,3 @@
-# Awesome Project Build with TypeORM
-
 ## Docker를 연습해보기 위한 레포
 
 
